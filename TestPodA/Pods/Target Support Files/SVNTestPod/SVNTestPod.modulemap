@@ -1,0 +1,6 @@
+framework module SVNTestPod {
+  umbrella header "SVNTestPod-umbrella.h"
+
+  export *
+  module * { export * }
+}
