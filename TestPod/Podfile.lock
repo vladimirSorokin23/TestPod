@@ -2,15 +2,15 @@ PODS:
   - SVNTestPod (0.0.1)
 
 DEPENDENCIES:
-  - SVNTestPod
+  - SVNTestPod (from `../SVNTestPod`)
 
-SPEC REPOS:
-  https://github.com/vladimirSorokin23/Specs.git:
-    - SVNTestPod
+EXTERNAL SOURCES:
+  SVNTestPod:
+    :path: "../SVNTestPod"
 
 SPEC CHECKSUMS:
-  SVNTestPod: a820e433a7d5743eb6c08230c5dc8f9d1f261fd0
+  SVNTestPod: 74c1095bd1d962eb76f1fde079294e59217ab31f
 
-PODFILE CHECKSUM: f3e72a6ddaadc49337f1364797a6f7e6f94979af
+PODFILE CHECKSUM: 0a14c5f96dbdc252acd377a9d2a6dc4451a01a78
 
 COCOAPODS: 1.11.3
