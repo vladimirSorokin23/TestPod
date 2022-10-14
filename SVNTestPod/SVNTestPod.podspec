@@ -6,6 +6,6 @@ Pod::Spec.new do |spec|
   spec.authors          = { 'Tony Million' => 'hafu23vladimir@gmail.com' }
 
   spec.source           = { :git => 'https://github.com/vladimirSorokin23/TestPod.git' }
-  spec.source_files     = 'SVNTestPod/Sources/*.swift'	
+  spec.source_files     = 'Sources/*.swift'	
   spec.platform 	= :ios, '14.0'
 end
